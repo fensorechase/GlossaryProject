@@ -185,7 +185,7 @@ public final class GlossaryProject {
         assert str != null : "Violation of: str is not null";
         assert strSet != null : "Violation of: strSet is not null";
 
-        strSet.clear(); //can we assume strSet is empty?
+        strSet.clear();
         Set<Character> tempSet = strSet.newInstance(); //same type
         for (int i = 0; i < str.length(); i++) {
             char sub = str.charAt(i);
